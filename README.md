@@ -1,0 +1,3 @@
+# cells
+cellgenerator
+view和field体现了数据与表现的分离，field不知道view的存在，cell也不知道field的存在，cellmachine负责业务逻辑，将view和field粘合在一起。
