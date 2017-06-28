@@ -23,6 +23,8 @@ public class CellMachine {
 				}
 			}
 		}
+		//初始化准备数据
+		
 		View view = new View(field);
 		JFrame frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -43,6 +45,8 @@ public class CellMachine {
 							numOfLive++;
 						}
 					}
+					//找出邻居中活的细胞个数
+					
 					System.out.print("["+row+"]["+col+"]:");
 					System.out.print(cell.isAlive()?"live":"dead");
 					System.out.print(":"+numOfLive+"-->");

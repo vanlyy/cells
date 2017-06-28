@@ -1,4 +1,5 @@
 package cell;
+//cell≤ª»œ ∂field
 
 import java.awt.Graphics;
  
